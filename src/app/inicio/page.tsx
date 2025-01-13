@@ -168,23 +168,23 @@ const Inicio = () => {
     <div className="skills-categories">
     <div className="text2">Lenguajes</div>
       <div className="skills-icons">
-        <img src="/Java.png" alt="JavaScript" />
-        <img src="/Python.png" alt="Python" />
-        <img src="/js.png" alt="Java" />
-        <img src="/Next.png" alt="Next" />
+        <Image src="/Java.png" alt="JavaScript" />
+        <Image src="/Python.png" alt="Python" />
+        <Image src="/js.png" alt="Java" />
+        <Image src="/Next.png" alt="Next" />
       </div>
       
   
       <div className="skills-icons">
-        <img src="/Git.png" alt="Git" />
-        <img src="/Docker.png" alt="Docker" />
-        <img src="/Laravel.png" alt="Laravel" />
+        <Image src="/Git.png" alt="Git" />
+        <Image src="/Docker.png" alt="Docker" />
+        <Image src="/Laravel.png" alt="Laravel" />
       </div>
       
      
       <div className="skills-icons">
-        <img src="/mysql.png" alt="MySQL" />
-        <img src="/Mongo.png" alt="MongoDB" />
+        <Image src="/mysql.png" alt="MySQL" />
+        <Image src="/Mongo.png" alt="MongoDB" />
       </div>
     </div>
   </section>
@@ -195,7 +195,7 @@ const Inicio = () => {
 
   <div className="card2">
     <div className="top">
-      <img src="/fisei.jpg" alt="UTA Logo" className="card-img" />
+      <Image src="/fisei.jpg" alt="UTA Logo" className="card-img" />
       <p className="title">Prácticas en la UTA</p>
     </div>
     <p className="desc">Redes y sistemas: Instalación y mantenimiento de redes informáticas, gestión de las páginas web de la universidad, reparación y optimización de computadoras, reseteo de equipos y configuración de redes internas. Además, colaboré en la implementación de nuevos sistemas de comunicación interna y soporte técnico en la universidad.</p>
@@ -203,7 +203,7 @@ const Inicio = () => {
 
   <div className="card2">
     <div className="top">
-      <img src="/sanf.png" alt="San Francisco Logo" className="card-img" />
+      <Image src="/sanf.png" alt="San Francisco Logo" className="card-img" />
       <p className="title">Pasantías en Cooperativa San Francisco</p>
     </div>
     <p className="desc">Desarrollo de software: Creación de aplicaciones internas y una auditoría integral para la prevención de daños en el software y hardware. Me encargué de verificar el estado de los equipos, prevenir fallos en los servidores y mejorar la seguridad informática de los sistemas. Esto ayudó a reducir el riesgo de pérdida de datos y a mejorar el rendimiento general de los equipos y servidores de la cooperativa.</p>
@@ -211,7 +211,7 @@ const Inicio = () => {
 
   <div className="card2">
     <div className="top">
-      <img src="/santaRosa.png" alt="Junta de Agua Logo" className="card-img" />
+      <Image src="/santaRosa.png" alt="Junta de Agua Logo" className="card-img" />
       <p className="title">Trabajo en Junta de Agua Santa Rosa</p>
     </div>
     <p className="desc">Soporte técnico: Mantenimiento de sistemas y atención a usuarios, incluyendo la implementación de un sistema de facturación para la medición del agua en las comunidades. Este sistema facilitó el proceso de cobro y control de consumo, mejorando la eficiencia operativa de la junta y proporcionando una herramienta más precisa y fácil de usar para los usuarios y el personal administrativo.</p>
@@ -250,7 +250,7 @@ const Inicio = () => {
           <div className="front">
             <div className="front-content">
               {/* Imagen al lado derecho */}
-              <img
+              <Image
                 className="img"
                 src={project.img} // Diferente imagen para cada proyecto
                 alt={`Imagen de Proyecto ${project.id}`}
@@ -281,24 +281,24 @@ const Inicio = () => {
   <h2 className="certificates-title">Mis Certificados</h2>
   <div className="certificates-container">
     <div className="certificate-card">
-      <img src="/certificado1.png" alt="Certificado 1" className="certificate-image" />
+      <Image src="/certificado1.png" alt="Certificado 1" className="certificate-image" />
       <p className="certificate-name">V Conference on Computer Science, Electronics and Industrial Engineering (CSEI 2023)</p>
     </div>
     <div className="certificate-card">
-      <img src="/certificado2.png" alt="Certificado 2" className="certificate-image" />
+      <Image src="/certificado2.png" alt="Certificado 2" className="certificate-image" />
       <p className="certificate-name">Certificado en JavaScript Essentials 1</p>
     </div>
     <div className="certificate-card">
-      <img src="/certificado3.png" alt="Certificado 3" className="certificate-image" />
+      <Image src="/certificado3.png" alt="Certificado 3" className="certificate-image" />
       <p className="certificate-name">Artículo: SIMDRIVE: A DIDACTIC IMMERSIVE LEARNING EXPERIENCE WITH TRAFFIC LAWS AND
       DRIVING SKILLS IN VIRTUAL WORLDS.</p>
     </div>
     <div className="certificate-card">
-      <img src="/certificado4.png" alt="Certificado 4" className="certificate-image" />
+      <Image src="/certificado4.png" alt="Certificado 4" className="certificate-image" />
       <p className="certificate-name">VI CONGRESO INTERNACIONAL DE CIENCIA DE LA COMPUTACION, ELECTRONICA E INGENIERÍA INDUSTRIAL CSEI 2024</p>
     </div>
     <div className="certificate-card">
-      <img src="/certificado5.png" alt="Certificado 5" className="certificate-image" />
+      <Image src="/certificado5.png" alt="Certificado 5" className="certificate-image" />
       <p className="certificate-name">Certificado en Python Essentials 2</p>
     </div>
   </div>
@@ -315,17 +315,17 @@ const Inicio = () => {
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/enrique-ortiz-b47b8711b/" target="_blank">
-            <img src="/link.png" alt="LinkedIn" />
+            <Image src="/link.png" alt="LinkedIn" />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/enrique_ortiz15" target="_blank">
-            <img src="/insta.png" alt="Instagram" />
+            <Image src="/insta.png" alt="Instagram" />
           </a>
         </li>
         <li>
           <a href="https://github.com/EnriqueOrtiz2001" target="_blank">
-            <img src="/github.png" alt="GitHub" />
+            <Image src="/github.png" alt="GitHub" />
           </a>
         </li>
       </ul>
